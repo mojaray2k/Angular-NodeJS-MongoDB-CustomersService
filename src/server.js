@@ -93,6 +93,7 @@ class Server {
     }
 
     initRoutes() {
+        // The line of code below loads the routes
         router.load(app, './controllers');
 
         // redirect all others to the index (HTML5 history)

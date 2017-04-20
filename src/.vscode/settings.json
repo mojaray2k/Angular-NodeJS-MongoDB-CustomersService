@@ -3,5 +3,7 @@
     "files.exclude": {
       "**/app/**/*.js.map": true,
       "**/app/**/*.js": true
-    }
-}
+    },
+    "angulardoc.repoId": "ba494e1b-a7ff-4c14-9f38-3dd38e201624",
+    "angulardoc.lastSync": 0
+  }
