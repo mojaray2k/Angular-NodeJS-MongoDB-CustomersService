@@ -11,7 +11,10 @@ import { ICustomer, IOrder, IState, IPagedResults } from '../shared/interfaces';
 
 @Injectable()
 export class DataService {
-  
+    /**
+     * The below code is the same as:
+     * baseUrl: string = 'http://localhost:3000/api/customers';
+     */
     baseUrl: string = '/api/customers';
 
     constructor(private http: Http) { 
