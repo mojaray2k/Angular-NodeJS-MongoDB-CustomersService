@@ -15,6 +15,7 @@ export class CustomerEditReactiveComponent implements OnInit {
 
   customerForm: FormGroup;
   customer: ICustomer = {
+    _id: '',
     firstName: '',
     lastName: '',
     gender: '',
